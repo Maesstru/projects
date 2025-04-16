@@ -1,0 +1,9 @@
+rootProject.name = 'network'
+include 'FestivalModels'
+include 'FestivalPersistence'
+include 'FestivalServices'
+include 'FestivalDto'
+include 'FestivalNetworking'
+include 'FestivalServer'
+include 'FestivalFXClient'
+
