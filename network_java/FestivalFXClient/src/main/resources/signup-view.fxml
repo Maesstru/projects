@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="username" layoutX="226.0" layoutY="60.0" />
+      <Label layoutX="228.0" layoutY="43.0" text="Username" />
+      <Label layoutX="228.0" layoutY="92.0" text="Parola" />
+      <Label layoutX="228.0" layoutY="144.0" text="Reintroduceti parola" />
+      <PasswordField fx:id="parola" layoutX="226.0" layoutY="110.0" />
+      <PasswordField fx:id="parolaCheck" layoutX="227.0" layoutY="162.0" />
+      <Button fx:id="signup" layoutX="256.0" layoutY="218.0" mnemonicParsing="false" text="Creeaza cont!">
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Button fx:id="login" layoutX="256.0" layoutY="265.0" mnemonicParsing="false" text="Am deja cont" />
+   </children>
+</AnchorPane>
